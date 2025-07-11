@@ -1,0 +1,90 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <button onclick="showMessage()">Click Me</button>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Will You Be Mine?</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffd1dc, #ffe6f0);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #d6336c;
+            margin-top: 100px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 30px auto;
+            max-width: 600px;
+        }
+
+        .heart {
+            font-size: 5em;
+            color: #ff4d6d;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .btn {
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 30px;
+            cursor: pointer;
+            margin: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e6004c;
+        }
+
+        footer {
+            margin-top: 100px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heart">💖</div>
+    <h1>Will You Be Mine?</h1>
+    <p>From the moment I met you, I knew you were someone special. <br>
+    Every day, I think about you. So today, I want to ask you...</p>
+
+    <button class="btn" onclick="alert('Yay!! You said YES! 💕')">Yes</button>
+    <button class="btn" onclick="alert('That’s okay. You’ll always be special to me 💔')">No</button>
+
+    <footer>
+        Made with 💗 by [Your Chetan]
+    </footer>
+
+</body>
+</html>
